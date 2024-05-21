@@ -1,79 +1,30 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# NewsApp
+## Aplicación de noticias en React Native
 
-# Getting Started
+La aplicación de noticias en React Native permite a los usuarios ver las últimas noticias conectándose a la API de [newsapi.org](https://newsapi.org/). La aplicación muestra las noticias en una FlatList, con 20 noticias visibles a la vez. Cada noticia se presenta en una tarjeta que incluye información como el título, una descripción, la foto, la fecha de publicación y un botón para abrir la noticia directamente en el sitio web.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+**Características:**
 
-## Step 1: Start the Metro Server
+- Desarrollado en React Native CLI con TypeScript.
+- Utiliza la API de [NewsAPI](https://newsapi.org/) para obtener noticias en tiempo real.
+- Muestra las noticias en una FlatList con paginación de 20 noticias a la vez.
+- Cada tarjeta de noticia incluye información relevante y un botón para abrir la noticia en el sitio web.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+**Capturas de Pantalla:**
 
-To start Metro, run the following command from the _root_ of your React Native project:
 
-```bash
-# using npm
-npm start
+![Captura de Pantalla](/newsapp.png)
 
-# OR using Yarn
-yarn start
-```
 
-## Step 2: Start your Application
+**Instrucciones para Ejecutar la Aplicación Móvil:**
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+1. Clona este repositorio.
+2. Crea un archivo .env siguiendo el env.example. Para obtener la api key debes ingresar a [newsapi.org](https://newsapi.org/) y seguir las instrucciones.
+3. Ejecuta `npm install` en la carpeta raiz  y `pod install` en la carpeta de ios para instalar las dependencias.
+4. Ejecuta `npx react-native run-android` o `npx react-native run-ios` para iniciar la aplicación.
 
-### For Android
+**Aplicación Móvil (APK):**
 
-```bash
-# using npm
-npm run android
+Se incluye un archivo  [APK](`/NewsApp.apk`) para probar la aplicación móvil en dispositivos Android.
 
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+---
