@@ -25,6 +25,6 @@ La aplicación de noticias en React Native permite a los usuarios ver las últim
 
 **Aplicación Móvil (APK):**
 
-Se incluye un archivo  [APK](`/NewsApp.apk`) para probar la aplicación móvil en dispositivos Android.
+Se incluye un archivo  [APK](/NewsApp.apk) para probar la aplicación móvil en dispositivos Android.
 
 ---
